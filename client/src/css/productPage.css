@@ -1,0 +1,146 @@
+.description{
+    font-size: 14;
+    color: rgb(83, 83, 83);
+    background-color: white;
+    border: 2px solid black;
+}
+Button.btn{
+    width: 100%;
+}
+.artist{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5625rem;
+    font-weight: 400;
+    padding: 0%;
+    text-align: center;
+
+}
+.title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.875rem;;
+    font-weight: 700;
+    padding: 0;
+    text-align: center;
+
+}
+.price{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.675rem;;
+    font-weight: 700;
+}
+.basc{
+width: 100%;
+}
+div.cart{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+.cart-button {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cart-button:hover {
+    background-color: white;
+    color: black;
+  }
+  .cart-input {
+    width: 50px;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid black;
+  }
+  
+  .add-to-cart-button {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: white;
+    color: black;
+  }
+  .track-list-container {
+    margin-top: 20px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 5%;
+    font-family: 'Roboto Slab', serif;
+  
+
+  }
+  .track{
+    font-size: 2rem;;
+    font-weight: 700;
+    text-align: center;
+  }
+  .track-list {
+    list-style: none;
+    padding: 0;
+    color: white;
+    font-size: 1.5rem;;
+    text-align: left;
+  }
+  
+  .track-list li {
+    font-size: 18px;
+    margin: 5px 0;
+    color: white; /* Цвет текста */
+    /* Добавьте другие стили, такие как отступы и цвет, по вашему усмотрению */
+  }
+  .desc{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5625rem;
+    font-weight: 700;
+  }
+  .descChild{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 5%;
+  }
+  .track-list-container {
+    /* Другие стили для контейнера, если нужно */
+  }
+  
+  .track-list {
+    /* Другие стили для списка, если нужно */
+  }
+  
+  .track-number {
+    float: left; /* Прижимаем к левому краю */
+    /* Другие стили для trackNumber, если нужно */
+  }
+  
+  .song-title {
+    margin-left: 5px; /* Добавляем небольшой отступ между trackNumber и title */
+    /* Другие стили для song-title, если нужно */
+  }
+  
+  .song-duration {
+    float: right; /* Прижимаем к правому краю */
+    /* Другие стили для song-duration, если нужно */
+  }
+  .audio{
+    float: right;
+    cursor:pointer;
+    border: white 2px solid;
+    width: 5%;
+    height: 5%;
+    align-items: center;
+    text-align: center;
+  }

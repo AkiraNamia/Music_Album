@@ -1,0 +1,88 @@
+.navlink{
+    font-size:14px;
+    text-transform: uppercase;
+    color: #000;
+    background:white;
+    transition: all .5 ease-in;
+
+}
+.navlink:hover{
+    font-size:14px;
+    text-transform: uppercase;
+    color: #fff;
+    background:black;
+}
+#collapsible-nav-dropdown{
+    color: #000;
+    font-size:14px;
+    text-transform: uppercase;
+    color: #000;
+    background:white;
+    transition: all .5 ease-in;
+
+}
+#collapsible-nav-dropdown:hover{
+    font-size:14px;
+    text-transform: uppercase;
+    color: #fff;
+    background:black;
+}
+.but{
+    appearance: none;
+    background: black;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s; /* Добавляем плавный переход */
+    border: 2px solid white; 
+}
+.but:hover {
+    background: #fff; /* Изменяем фон при наведении на кнопку */
+    color: #000; /* Изменяем цвет текста при наведении на кнопку */
+    border: 2px solid #000; /* Добавляем обводку при наведении на кнопку */
+}
+.navbar-bottom {
+    background: black;
+    font-family: 'Roboto Slab, serif';
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  /* main.css */
+.navbar-bottom.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  /* Первое свойство устанавливает цвет ссылок */
+.nav-pills .nav-link {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 2%;
+  }
+  
+  /* При нажатии меняет цвет текста на синий */
+  .nav-pills .nav-link.active,
+  .nav-pills .nav-link.active:hover {
+    color: white;
+    background-color: black;
+  }
+  .parrent{
+    position: relative;
+  }
+  Button .notification-circle {
+    position: absolute;
+    top: 30px;
+    right: -5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    border: solid 2px white;
+  }
+  

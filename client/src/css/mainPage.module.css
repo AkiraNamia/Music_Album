@@ -1,0 +1,69 @@
+.mainContainer{
+    margin-top: 5%;
+    margin-bottom: 150px;
+}
+.popular{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+}
+.title{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+
+}
+.artist{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:xx-large;
+    text-align: left;
+
+}
+.descr{
+   
+    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+}
+.but{
+    appearance: none;
+    background: black;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s; /* Добавляем плавный переход */
+    border: 2px solid white; 
+    width: 50%;
+}
+.but:hover {
+    background: #fff; /* Изменяем фон при наведении на кнопку */
+    color: #000; /* Изменяем цвет текста при наведении на кнопку */
+    border: 2px solid #000; /* Добавляем обводку при наведении на кнопку */
+}
+.slide-indicators {
+    margin-top: 20px;
+  }
+  
+  .indicator-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #aaa;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .indicator-dot.active {
+    background-color: #333;
+  }
+  .slider-bar {
+    width: 100%;
+    height: 20px; /* Высота прогресс-бара */
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #3498db; /* Цвет прогресс-бара */
+    transition: width 0.3s ease-in-out; /* Плавное изменение ширины */
+  }
+  

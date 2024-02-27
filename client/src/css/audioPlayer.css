@@ -1,0 +1,18 @@
+.audio-player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    transition: transform 0.5s ease-in-out;
+    z-index: 999;
+  }
+  
+  .audio-player.hidden {
+    transform: translateY(100%);
+  }
+  

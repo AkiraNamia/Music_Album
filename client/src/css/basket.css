@@ -1,0 +1,43 @@
+.hr{
+    color: white;
+    height: 5px;
+    background-color: white;
+}
+.card.newCard{
+    background-color: white;
+    padding: 0px;
+    width: 100%;
+    border-style: none;
+}
+.newItem{
+  
+    width: 100%;
+}
+
+.newCard.newItem.accordionItem{
+    
+    width: 100%;
+}
+/* Изначальный стиль заголовка в свернутом состоянии */
+.newItem.button.accordion-button.collapsed {
+    background-color: black;
+    color: white;
+    width: 100%;
+
+}
+
+/* Стиль заголовка при развернутом состоянии */
+.newItem.button.accordion-button:not(.collapsed) {
+    background-color: white;
+    color: black;
+    width: 100%;
+
+}
+
+/* Тень при нажатии на заголовок */
+.newItem.button.accordion-button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+    width: 100%;
+
+}

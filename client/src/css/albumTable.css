@@ -1,0 +1,37 @@
+/* Переопределение стилей таблицы Bootstrap */
+
+/* Указываем более специфичные селекторы для таблицы */
+table.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* белый цвет фона таблицы */
+  }
+  
+  /* Стили для заголовков таблицы */
+  table.table th {
+    background-color: #000000 !important; /* черный цвет фона заголовков */
+    color: #ffffff !important; /* белый цвет текста в заголовках */
+  }
+  
+  /* Стили для ячеек таблицы */
+  table.table td {
+    border: 1px solid #dddddd; /* светло-серый цвет границ ячеек */
+    padding: 8px; /* отступ внутри ячеек */
+    text-align: left; /* выравнивание содержимого ячеек по левому краю */
+    vertical-align: top; /* выравнивание содержимого ячеек по верхнему краю */
+  }
+  
+  /* Стили для четных строк таблицы */
+  table.table tbody tr:nth-child(even) {
+    background-color: #f3f3f3; /* цвет фона для четных строк */
+  }
+  li{
+    list-style: none;
+  }
+  table.table ul.li{
+    text-align: left;
+    align-items: stretch;
+  }
+  
